@@ -119,6 +119,9 @@ const displayVideos= (videos) => {
     `;
     return;
    }
+   else{
+    videoContainer.classList.add("grid");
+   }
    
 
    videos.forEach((video) =>{
